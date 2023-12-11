@@ -77,3 +77,49 @@ const bikeDetails = {
 
 // let someField = "price";
 // console.log(phoneDetails[`${someField}`]);
+
+// ?assignment
+// 2.
+
+const myHouseDetails = {
+  numberOfRooms: 9,
+  numberOfMembers: 4,
+  color: "green",
+  builtYear: 1999,
+  numberOfStorey: 3,
+};
+
+// delete myHouseDetails.numberOfMembers;
+
+// myHouseDetails.numberOfRooms += 2; //x=x+2 => x+=2
+
+// myHouseDetails["estimatedPriceOfHouse"] = "2 cr";
+// console.log(myHouseDetails);
+
+// “I have a green coloured house
+//        with 9 rooms where 10 people are  living.
+//        The house is 3 storey and was built in 2011
+//        with an estimated budget of 2 crores.”
+
+// console.log(
+//   `I have a ${myHouseDetails.color} coloured house with ${myHouseDetails.numberOfRooms} rooms.`
+// );
+
+// const person = {
+//   name: {
+//     first: "Dinesh",
+//     last: "Thakuri",
+//   },
+//   address: {
+//     temporary: {
+//       address1: "Bkt",
+//       address2: "Pkr",
+//     },
+//   },
+// };
+
+// console.log(person.address.temporary.address1);
+// console.log(person["address"]["temporary"]["address2"]);
+
+// delete person.address.temporary.address2;
+// console.log(person);
