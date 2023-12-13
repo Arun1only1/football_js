@@ -66,7 +66,7 @@
 // const newList = numList.slice();
 // console.log(newList);
 
-// splice //removes,replaces,adds item to array
+//? splice //removes,replaces,adds item to array
 // splice(startIndex, deleteCount, value)
 // const playerList = [
 //   "Hari",
@@ -90,3 +90,31 @@
 // months.splice(4, 0, "May");
 
 // console.log(months);
+
+//  let laptopBrands = ["asus",'acer',"apple","msi"]
+//1.  add "lenovo" to end of array
+// 2. add "hp" to start of array
+// 3. remove "acer" from array
+// 4. replace "apple" with "dell"
+// 5.print out length of array
+// 6. use loop to print all array elements
+
+// let laptopBrands = ["asus", "acer", "apple", "msi"];
+// laptopBrands.push("lenovo");
+
+// laptopBrands.unshift("hp");
+
+// laptopBrands.splice(1, 1);
+
+// laptopBrands.splice(2, 1, "dell");
+
+// console.log(laptopBrands.length);
+
+// console.log(laptopBrands[0]);
+// console.log(laptopBrands[1]);
+// console.log(laptopBrands[2]);
+// console.log(laptopBrands[3]);
+
+// for (let i = 0; i <= laptopBrands.length - 1; i++) {
+//   console.log(laptopBrands[i]);
+// }
