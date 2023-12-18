@@ -63,3 +63,31 @@ let numList = [100, 200, 250, 75, 65];
 // const result = productList.reduce((sum, item) => sum + item.price, 0);
 
 // console.log(result);
+
+// let students = [
+//   "Riya",
+//   "Ashish",
+//   "Bibek",
+//   "Abhishek",
+//   "Sugam",
+//   "Dinesh",
+//   "Alish",
+// ];
+
+// students.sort();
+// console.log(students);
+
+// let scores = [100, 200, 300, 500, 800, 211, 11, 1001];
+
+//?   return a - b;//ascending sort
+//?   return b - a; //descending sort
+
+// scores.sort((a, b) => a - b);
+
+// console.log(scores);
+
+// let phrases = ["abc", "xyz", "a", "ah", "bx", "zx", "fy"];
+// phrases.sort();
+// phrases.reverse();
+// phrases.sort().reverse();
+// console.log(phrases);
